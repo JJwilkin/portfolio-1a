@@ -22,6 +22,18 @@ body {
   float:left;
   background-color:  #2e2e2e;
 }
+.picture {
+  height: 50vh;
+  overflow: hidden;
+  border-radius:10%;
+}
+
+.picture img {
+  width: 100%;
+  position: relative;
+  top: -3vh;
+
+}
 
 .short-universe{
   max-width: 94px;
@@ -255,6 +267,12 @@ margin: 0 auto 2rem;
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
   padding: 7rem 2rem;
+}
+
+.dark2 {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0 2rem 2rem;
 }
 .fixed-background h3 {
 margin-bottom: 1rem;
