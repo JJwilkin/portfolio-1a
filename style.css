@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
   font-family: 'Comfortaa', sans-serif;
   color: #505962;
-  background-color: black;
+  /* background-color: black; */
 }
 body a {
   color: #505962;
@@ -123,6 +123,9 @@ body a:hover {
   /* filter: invert(100%);  */
 }
 
+#home {
+  background-color: black!important;
+}
 .caption {
   width: 100%;
   max-width: 100%;
@@ -247,7 +250,8 @@ h3.heading {
   font-size: 1.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 1.9rem;
+  margin-bottom: 1.5rem;
+  margin-top:1.9rem;
 }
 .heading-underline {
 width: 3rem;
@@ -337,8 +341,70 @@ canvas{
     background-color: #000;
     position: fixed;
     background-attachment: fixed;
+}
+
+/*  Nailed it Section */
+.nailed_it {
+  color: white;
+  margin-left: 10%;
+  justify-content: flex-end;
+  width: 80%;
+  padding: 50px;
+  padding-bottom: 0;
+  overflow-x: hidden;
+  height: 90vh;
+}
+.nailed_it_pics {
+  width:100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.luigi {
+position: absolute;
+top: -10%;
 
 }
+
+.yoshi {
+  position: relative;
+  top:46%;
+}
+.nailedit_landing {
+    position: relative;
+    margin-left: 12vh;
+    margin-right: 8vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.background {
+  width:100%;
+  border-radius: 10%;
+}
+
+.spacing {
+  margin-top: 5rem;
+margin-bottom: 10rem;
+}
+
+.spacing-between{
+  margin-left:5rem;
+
+}
+
+.spacing-right {
+  margin-right: 5rem;
+}
+
+
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
